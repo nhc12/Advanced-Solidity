@@ -7,7 +7,8 @@
     * Inside the KaseiCoin contract, added a constructor with the following parameters: name, symbol, and initial_supply.
     * As part of the constructor definition, added a call to the constructor of the ERC20Detailed contract, passing the parameters name, symbol, and 18. 
     * Compiled the contract by using compiler version 0.5.0.
-    * Screenshot of the compilation of the contract: 
+    * Screenshot of the compilation of the contract:
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Successful%20compilation%20of%20the%20contract%20KaseiCoin.jpg)
 
 2. Created the KaseiCoin Crowdsale Contract: 
     * Imported the provided KaseiCoinCrowdsale.sol starter code into the Remix IDE.
@@ -15,6 +16,7 @@
     * In the KaisenCoinCrowdsale constructor, provided parameters for all the features of the crowdsale, such as rate, wallet and token. 
     * Compiled the contract by using compiler version 0.5.0.
     * Screenshot of the compilation of the contract: 
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Successful%20compilation%20of%20the%20contract%20KaseiCoinCrowdsale.jpg)
 
 3. Created the KaseiCoin Deployer Contract: 
     * Uncommented the KaseiCoinCrowdsaleDeployer contract in the provided KaseiCoinCrowdsale.sol starter code.
@@ -29,11 +31,15 @@
        * Had the KaseiCoinCrowdsaleDeployer renounce its minter role.
        * Compiled the contract by using compiler version 0.5.0.
        * Screenshot of the compilation of the contract: 
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Deployed%20Contract.jpg)
 
 4. Deployed and Tested the Crowdsale on a Local Blockchain: 
-    * Deployed the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
-    * Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
-    * Reviewed the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
+    * Deployed the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache:
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Deployed%20the%20crowdsale%20to%20a%20local%20blockchain%20by%20using%20Remix%2C%20MetaMask%2C%20and%20Ganache..jpg)
+    * Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts:
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Test%20the%20functionality%20of%20the%20crowdsale%20by%20using%20test%20accounts%20to%20buy%20new%20tokens%20and%20then%20checking%20the%20balances%20of%20those%20accounts.jpg)
+    * Reviewed the total supply of minted tokens and the amount of wei that the crowdsale contract has raised:
+![image](https://github.com/nhc12/Advanced-Solidity/blob/main/Execution_Results/Review%20the%20total%20supply%20of%20minted%20tokens%20and%20the%20amount%20of%20wei%20that%20the%20crowdsale%20contract%20has%20raised..jpg)
 
 5. Attachmnents:
       * Starter Codes (KaseiCoin.sol and KaseiCoinCrowdsale.sol)
